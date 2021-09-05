@@ -1,0 +1,48 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js run watch --prefix server
+
+PATH: 
+  /tmp/yarn--1630206588757-0.9003754678433817:/home/xavi/fullstack/nodejs-ztm/nasa/node_modules/.bin:/home/xavi/.config/yarn/link/node_modules/.bin:/home/xavi/.yarn/bin:/usr/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/usr/bin/node_modules/npm/bin/node-gyp-bin:/home/xavi/.vscode-server/bin/054a9295330880ed74ceaedda236253b4f39a335/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python39/Scripts/:/mnt/c/Python39/:/mnt/c/PROGRAM FILES/JAVA/JDK-11.0.2/BIN:/mnt/c/PROGRAM FILES/NOTEPAD++:/mnt/c/PROGRAM FILES/JAVA/JRE1.8.0_202/BIN:/mnt/c/SQLITE3:/mnt/c/PROGRAM FILES/NVIDIA CORPORATION/NVIDIA NVDLISR:/mnt/c/PROGRAM FILES (X86)/NVIDIA CORPORATION/PHYSX/COMMON:/mnt/c/WINDOWS/SYSTEM32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/SYSTEM32/WBEM:/mnt/c/WINDOWS/SYSTEM32/WINDOWSPOWERSHELL/V1.0/:/mnt/c/WINDOWS/SYSTEM32/OPENSSH/:/mnt/c/APACHE-MAVEN-3.6.2/BIN:/mnt/c/GRADLE-5.6.3/BIN:/mnt/c/PROGRAM FILES (X86)/INTEL/INTEL(R) MANAGEMENT ENGINE COMPONENTS/DAL:/mnt/c/PROGRAM FILES/INTEL/INTEL(R) MANAGEMENT ENGINE COMPONENTS/DAL:/mnt/c/PROGRAM FILES/GIT/CMD:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/Xavi/.windows-build-tools/python27/:/mnt/c/Users/Xavi/AppData/Local/Programs/Python/Python37/Scripts/:/mnt/c/Users/Xavi/AppData/Local/Programs/Python/Python37/:/mnt/c/Program Files/Notepad++:/mnt/c/Users/Xavi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Xavi/AppData/Local/Yarn/bin:/mnt/c/dart-sass:/mnt/c/Users/Xavi/AppData/Roaming/npm:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/Xavi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Xavi/AppData/Local/Microsoft/WindowsApps
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Invariant Violation: Script must exist
+      at invariant (/usr/share/yarn/lib/cli.js:2314:15)
+      at /usr/share/yarn/lib/cli.js:62387:11
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+      at new F (/usr/share/yarn/lib/cli.js:5301:28)
+      at /usr/share/yarn/lib/cli.js:307:12
+      at realRunCommand (/usr/share/yarn/lib/cli.js:62472:23)
+      at action.action (/usr/share/yarn/lib/cli.js:62533:16)
+
+npm manifest: 
+  {
+  	"name": "nasa-project",
+  	"version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+  		"server": "yarn run watch --prefix server",
+  		"client": "yarn start --cwd client",
+  		"watch": "",
+  		"test": ""
+  	},
+  	"license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
