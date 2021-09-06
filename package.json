@@ -12,7 +12,7 @@
 		"watch": "yarn run server & yarn run client",
 		"deploy": "cd client && yarn run build && cd ../server && yarn start",
 		"deploy-cluster": "cd client && yarn run build && cd ../server && yarn run cluster",
-		"test": "cd server && yarn test & ../ cd client && yarn test"
+		"test": "cd server && yarn test && ../ cd client && yarn test"
 	},
 	"license": "MIT"
 }
